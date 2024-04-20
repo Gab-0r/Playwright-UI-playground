@@ -1,7 +1,7 @@
 from playwright.sync_api import Page
 import pytest
 
-URL = "https://uitestingplayground.com/"
+URL = "http://uitestingplayground.com/"
 
 @pytest.fixture(autouse=True, scope="function")
 def playwright_page(page: Page):
